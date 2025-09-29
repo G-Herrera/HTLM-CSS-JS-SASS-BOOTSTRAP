@@ -1,8 +1,26 @@
+body a {
+  text-decoration: none;
+  color: #8B3A3A;
+}
+body a:hover {
+  text-decoration: line-through;
+  color: #5a7c78;
+}
+
 body {
   background-color: #f5f5f5;
   color: #2f2f2f;
 }
-
 h1, h2 {
   color: #8B3A3A;
+}
+
+.banner {
+  background-color: #f5f5f5;
+  opacity: 0.8;
+  color: #2f2f2f;
+}
+.banner a {
+  font-size: 1.5em;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */

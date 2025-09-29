@@ -1,3 +1,13 @@
 $primaryColor: #8B3A3A;
-$secondaryColor: #2f2f2f;
+$secondaryColor: #5a7c78;
 $backgroundColor: #f5f5f5;
+$fontColor: #2f2f2f;
+
+%resetLinks{
+    text-decoration: none;
+    color:$primaryColor;
+    &:hover{
+        text-decoration: line-through;
+        color: $secondaryColor;
+    }
+}
