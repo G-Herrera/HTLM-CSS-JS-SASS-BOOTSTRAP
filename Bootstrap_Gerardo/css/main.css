@@ -11,7 +11,13 @@ body {
   background-color: #f5f5f5;
   color: #2f2f2f;
 }
-h1, h2 {
+header .navBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+h1, h2, .card-title {
   color: #8B3A3A;
 }
 
@@ -23,4 +29,8 @@ h1, h2 {
 .banner a {
   font-size: 1.5em;
   font-weight: bold;
+}
+
+.accordion-body {
+  text-align: justify;
 }/*# sourceMappingURL=main.css.map */

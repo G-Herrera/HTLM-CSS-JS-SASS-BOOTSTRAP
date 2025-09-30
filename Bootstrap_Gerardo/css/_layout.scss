@@ -5,7 +5,14 @@ body{
         @extend %resetLinks;
     }
 }
-h1, h2{
+
+header .navBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1, h2, .card-title{
     color: $primaryColor;
 }
 .banner{
@@ -18,3 +25,8 @@ h1, h2{
     }
     
 }
+
+.accordion-body{
+    text-align: justify;
+}
+
